@@ -34,15 +34,14 @@
   background-color:black;
   text-align: center;
   height: 75%;
-  box-shadow:15px 15px 12px grey;  
 }
 
-h1 {
+.menuh1 {
   background-color:black;
   font-family: 'gothambold', sans-serif;
 }
 
-.button {
+.menubutton {
   background-color: #363636;
   border: none;
   color: white;
@@ -55,16 +54,19 @@ h1 {
   transition-duration: 0.4s;
   font-family: 'gothammedium', sans-serif;
   outline:none;
+  margin: 5;
+  /* width: 30%; */
+  height: 50;
 }
 
-.button:hover {
+.menubutton:hover {
   background-color: #787878; /* Green */
   color: white;
   border-radius: 15px;
   
 }
 
-.button:active {
+.menubutton:active {
 transition-duration: 0.15s;
 background-color: white;
 border-radius: 24px;
@@ -73,9 +75,9 @@ border-radius: 24px;
 
 <body>
 <div class="menu">
-  <h1 id="epicheader">Sobloxsy's Menu</h1>
-  <button class="button">Xray Menu</button>
-  <button class="button">Glitch Menu</button>
+  <h1 class="menuh1">Sobloxsy's Menu</h1>
+  <button class="menubutton">Unlock Text</button>
+  <button class="menubutton">Lock Text</button>
 </div>
   </body>
 </html>
