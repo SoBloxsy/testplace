@@ -172,6 +172,8 @@ input:hover {
 
 
 <script>
+
+ 
  document.getElementById("close").onclick = close;
  
  function close() {
@@ -190,9 +192,8 @@ document.getElementById("plus").onclick = Create;
  function Create() {
   var t = document.createElement("button")
   t.className = "menubutton"
-  t.innerHTML = "test"
+  t.innerHTML = "test " + document.getElementById("menu").childElementCount
   document.getElementById("menu").appendChild(t);
-
 }
 //# sourceURL=userscript.js
 </script>
